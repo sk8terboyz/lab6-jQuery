@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Lab</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="title__wrapper">
+        <h1 class="title">jQuery Playground</h1>
+    </div>
+    <div class="buttons">
+        <button id="fade">Fadein/Out</button>
+        <button id="slide">SlideUp/Down</button>
+        <button id="add">Add Squares</button>
+        <button id="delete">Delete Squares</button>
+        <button id="color">Change Color</button>
+        <button id="free">Move Me</button>
+    </div>
+    <hr/>
+    <div class="box-area">
+        <div class="box"></div>
+    </div>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <script>
+        $("#fade").on("click", function() {
+            console.log("Hello");
+        });
+    </script>
+</body>
+</html>
