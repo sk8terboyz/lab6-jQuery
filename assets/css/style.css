@@ -46,6 +46,16 @@ hr {
     width: 150px;
     height: 150px;
     background-color: green;
+    position: relative;
+    margin: 2px;
+}
+
+.boxAdded {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    position: relative;
+    margin: 2px;
 }
 
 @media screen and (min-width:1700px) {
